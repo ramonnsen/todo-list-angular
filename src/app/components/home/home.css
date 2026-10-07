@@ -1,0 +1,8 @@
+#backgroud-Main{
+    padding-top: 100px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #162134;
+}

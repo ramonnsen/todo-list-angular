@@ -1,0 +1,27 @@
+#todolist-card{
+    margin: 20px;
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #111B2A;
+}
+
+#header-todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#header-todolist{
+    margin: 0;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}

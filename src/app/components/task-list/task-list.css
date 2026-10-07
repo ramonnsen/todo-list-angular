@@ -1,0 +1,22 @@
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p{
+    color: white;
+}
+
+#buttons-list{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    height: 45px;
+}
+.btn{
+    padding: 5px;
+    background-color: #1FA2E8;
+    color: aliceblue;
+}

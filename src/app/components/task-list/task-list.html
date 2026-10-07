@@ -1,0 +1,13 @@
+<div id="task-list">
+    <div id="buttons-list">
+    <!-- <button type="button" class="btn">Todas</button>
+    <button type="button" class="btn">Pendentes</button>
+    <button type="button" class="btn">Concluídas</button> -->
+    <button (click)="findAll()">Get tasks test DB</button>
+    </div>
+</div>
+<div id="tasks">
+    @for (task of tasks(); track task.createdAt) {
+        <app-task-item [task]="task"  (taskDeleted)="onTaskDeleted($event)"></app-task-item>
+    }
+</div>
